@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC06273D1EA8243E0058B35B /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06273C1EA8243E0058B35B /* ModeViewController.swift */; };
+		FC09D2491EEF7A7000A57BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09D2391EEF7A7000A57BB2 /* ViewController.swift */; };
+		FC09D24B1EEF7A7000A57BB2 /* GuessingGame2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09D23B1EEF7A7000A57BB2 /* GuessingGame2ViewController.swift */; };
+		FC09D24C1EEF7A7000A57BB2 /* GuessingGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09D23C1EEF7A7000A57BB2 /* GuessingGameViewController.swift */; };
+		FC09D24F1EEF7A7000A57BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC09D2401EEF7A7000A57BB2 /* Assets.xcassets */; };
+		FC09D2501EEF7A7000A57BB2 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FC09D2411EEF7A7000A57BB2 /* Base.lproj */; };
+		FCB13E671EF2158000AD117D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB13E661EF2158000AD117D /* StoreKit.framework */; };
+		FCB5919D1EA8821600692EF4 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5919C1EA8821600692EF4 /* RuleViewController.swift */; };
+		FCB5919F1EA88B4400692EF4 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5919E1EA88B4400692EF4 /* CardViewController.swift */; };
+		FCD1368E1EB6F0B600CBABF6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1368D1EB6F0B600CBABF6 /* StartViewController.swift */; };
+		FCD136901EB6F9F200CBABF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD1368F1EB6F9F200CBABF6 /* UIKit.framework */; };
 		FCE50C041E99891E00CE20A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE50C031E99891E00CE20A8 /* AppDelegate.swift */; };
-		FCE50C061E99891E00CE20A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE50C051E99891E00CE20A8 /* ViewController.swift */; };
 		FCE50C091E99891E00CE20A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE50C071E99891E00CE20A8 /* Main.storyboard */; };
-		FCE50C0C1E99891E00CE20A8 /* Stacked.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCE50C0A1E99891E00CE20A8 /* Stacked.xcdatamodeld */; };
-		FCE50C0E1E99891E00CE20A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE50C0D1E99891E00CE20A8 /* Assets.xcassets */; };
 		FCE50C111E99891E00CE20A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE50C0F1E99891E00CE20A8 /* LaunchScreen.storyboard */; };
 		FCE50C1C1E99891E00CE20A8 /* StackedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE50C1B1E99891E00CE20A8 /* StackedTests.swift */; };
 		FCE50C271E99891E00CE20A8 /* StackedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE50C261E99891E00CE20A8 /* StackedUITests.swift */; };
@@ -35,19 +43,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC06273C1EA8243E0058B35B /* ModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		FC09D2391EEF7A7000A57BB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC09D23B1EEF7A7000A57BB2 /* GuessingGame2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingGame2ViewController.swift; sourceTree = "<group>"; };
+		FC09D23C1EEF7A7000A57BB2 /* GuessingGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingGameViewController.swift; sourceTree = "<group>"; };
+		FC09D2401EEF7A7000A57BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC09D2411EEF7A7000A57BB2 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		FC09D2421EEF7A7000A57BB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FC41C3A81EF8CB0E000E50FE /* Stacked.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stacked.entitlements; sourceTree = "<group>"; };
+		FC9DC6FE1EEF92F500F4B5CD /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FCB13E661EF2158000AD117D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FCB5919C1EA8821600692EF4 /* RuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		FCB5919E1EA88B4400692EF4 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		FCD1368D1EB6F0B600CBABF6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FCD1368F1EB6F9F200CBABF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCE50C001E99891E00CE20A8 /* Stacked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stacked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE50C031E99891E00CE20A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCE50C051E99891E00CE20A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCE50C081E99891E00CE20A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCE50C0B1E99891E00CE20A8 /* Stacked.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stacked.xcdatamodel; sourceTree = "<group>"; };
-		FCE50C0D1E99891E00CE20A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE50C101E99891E00CE20A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCE50C121E99891E00CE20A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE50C171E99891E00CE20A8 /* StackedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE50C1B1E99891E00CE20A8 /* StackedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedTests.swift; sourceTree = "<group>"; };
+		FCE50C1B1E99891E00CE20A8 /* StackedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StackedTests.swift; path = ../StackedTests/StackedTests.swift; sourceTree = "<group>"; };
 		FCE50C1D1E99891E00CE20A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE50C221E99891E00CE20A8 /* StackedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE50C261E99891E00CE20A8 /* StackedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedUITests.swift; sourceTree = "<group>"; };
+		FCE50C261E99891E00CE20A8 /* StackedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StackedUITests.swift; path = ../StackedUITests/StackedUITests.swift; sourceTree = "<group>"; };
 		FCE50C281E99891E00CE20A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD136901EB6F9F200CBABF6 /* UIKit.framework in Frameworks */,
+				FCB13E671EF2158000AD117D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC48D8D91EB1A8AD0076627A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9DC6FE1EEF92F500F4B5CD /* Header.h */,
+				FCD1368F1EB6F9F200CBABF6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB13E651EF2158000AD117D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB13E661EF2158000AD117D /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCE50BF71E99891E00CE20A8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,7 @@
 				FCE50C1A1E99891E00CE20A8 /* StackedTests */,
 				FCE50C251E99891E00CE20A8 /* StackedUITests */,
 				FCE50C011E99891E00CE20A8 /* Products */,
+				FCB13E651EF2158000AD117D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +137,22 @@
 		FCE50C021E99891E00CE20A8 /* Stacked */ = {
 			isa = PBXGroup;
 			children = (
+				FC41C3A81EF8CB0E000E50FE /* Stacked.entitlements */,
+				FC48D8D91EB1A8AD0076627A /* Frameworks */,
 				FCE50C031E99891E00CE20A8 /* AppDelegate.swift */,
-				FCE50C051E99891E00CE20A8 /* ViewController.swift */,
+				FCB5919E1EA88B4400692EF4 /* CardViewController.swift */,
+				FC06273C1EA8243E0058B35B /* ModeViewController.swift */,
+				FCB5919C1EA8821600692EF4 /* RuleViewController.swift */,
+				FCD1368D1EB6F0B600CBABF6 /* StartViewController.swift */,
+				FC09D2391EEF7A7000A57BB2 /* ViewController.swift */,
+				FC09D23B1EEF7A7000A57BB2 /* GuessingGame2ViewController.swift */,
+				FC09D23C1EEF7A7000A57BB2 /* GuessingGameViewController.swift */,
 				FCE50C071E99891E00CE20A8 /* Main.storyboard */,
-				FCE50C0D1E99891E00CE20A8 /* Assets.xcassets */,
+				FC09D2401EEF7A7000A57BB2 /* Assets.xcassets */,
+				FC09D2411EEF7A7000A57BB2 /* Base.lproj */,
+				FC09D2421EEF7A7000A57BB2 /* Info.plist */,
+				FC09D2441EEF7A7000A57BB2 /* Stacked.xcdatamodeld */,
 				FCE50C0F1E99891E00CE20A8 /* LaunchScreen.storyboard */,
-				FCE50C121E99891E00CE20A8 /* Info.plist */,
-				FCE50C0A1E99891E00CE20A8 /* Stacked.xcdatamodeld */,
 			);
 			path = Stacked;
 			sourceTree = "<group>";
@@ -191,12 +238,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Applifier;
 				TargetAttributes = {
 					FCE50BFF1E99891E00CE20A8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35722G5V9S;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					FCE50C161E99891E00CE20A8 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -236,7 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE50C111E99891E00CE20A8 /* LaunchScreen.storyboard in Resources */,
-				FCE50C0E1E99891E00CE20A8 /* Assets.xcassets in Resources */,
+				FC09D2501EEF7A7000A57BB2 /* Base.lproj in Resources */,
+				FC09D24F1EEF7A7000A57BB2 /* Assets.xcassets in Resources */,
 				FCE50C091E99891E00CE20A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE50C061E99891E00CE20A8 /* ViewController.swift in Sources */,
+				FC09D2491EEF7A7000A57BB2 /* ViewController.swift in Sources */,
+				FCB5919F1EA88B4400692EF4 /* CardViewController.swift in Sources */,
+				FC09D24C1EEF7A7000A57BB2 /* GuessingGameViewController.swift in Sources */,
+				FCD1368E1EB6F0B600CBABF6 /* StartViewController.swift in Sources */,
+				FC09D24B1EEF7A7000A57BB2 /* GuessingGame2ViewController.swift in Sources */,
+				FCB5919D1EA8821600692EF4 /* RuleViewController.swift in Sources */,
 				FCE50C041E99891E00CE20A8 /* AppDelegate.swift in Sources */,
-				FCE50C0C1E99891E00CE20A8 /* Stacked.xcdatamodeld in Sources */,
+				FC06273D1EA8243E0058B35B /* ModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +403,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -392,6 +456,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,10 +479,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35722G5V9S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Stacked",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Stacked/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.stacked.Stacked;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.Stacked;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Stacked/Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +503,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35722G5V9S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Stacked",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Stacked/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.stacked.Stacked;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.Stacked;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Stacked/Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +596,7 @@
 				FCE50C2D1E99891E00CE20A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE50C2E1E99891E00CE20A8 /* Build configuration list for PBXNativeTarget "StackedTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +605,7 @@
 				FCE50C301E99891E00CE20A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE50C311E99891E00CE20A8 /* Build configuration list for PBXNativeTarget "StackedUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,17 +614,17 @@
 				FCE50C331E99891E00CE20A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FCE50C0A1E99891E00CE20A8 /* Stacked.xcdatamodeld */ = {
+		FC09D2441EEF7A7000A57BB2 /* Stacked.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FCE50C0B1E99891E00CE20A8 /* Stacked.xcdatamodel */,
 			);
-			currentVersion = FCE50C0B1E99891E00CE20A8 /* Stacked.xcdatamodel */;
-			path = Stacked.xcdatamodeld;
+			name = Stacked.xcdatamodeld;
+			path = "../../Desktop/Design Projects/Stacked/Stacked/Stacked.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
